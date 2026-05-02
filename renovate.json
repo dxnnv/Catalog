@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "rangeStrategy": "bump",
+  "timezone": "America/New_York",
+  "schedule": [
+    "after 02:00 before 06:00 on monday"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/)build\\.gradle\\.kts$/"
+      ],
+      "matchStrings": [
+        "//\\s*renovate:\\s*datasource=(?<datasource>[^\\s]+)\\s+depName=(?<depName>[^\\s]+)(?:\\s+versioning=(?<versioning>[^\\s]+))?\\s+version\\(\"(?<versionKey>[^\"]+)\",\\s*\"(?<currentValue>[^\"]+)\"\\)"
+      ]
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Group Gradle dependency and plugin updates (Catalog)",
+      "matchManagers": [
+        "gradle",
+        "custom.regex"
+      ],
+      "groupName": "Gradle dependencies (Catalog)",
+      "groupSlug": "gradle-catalog-deps"
+    },
+    {
+      "description": "Group GitHub Actions updates",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "groupName": "GitHub Actions",
+      "groupSlug": "github-actions"
+    }
+  ]
+}
