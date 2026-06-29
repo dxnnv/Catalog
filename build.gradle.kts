@@ -29,6 +29,9 @@ repositories {
     maven("https://repo.dmulloy2.net/repository/public/") {
         name = "ProtocolLib"
     }
+    maven("https://repo.codemc.io/repository/maven-releases/") {
+        name = "PacketEvents"
+    }
 }
 
 catalog {
@@ -44,7 +47,7 @@ catalog {
 
         // Versions
         // renovate: datasource=maven depName=dev.dxnny:infrastructure
-        version("infrastructure", "5.2.1")
+        version("infrastructure", "5.2.2")
         // renovate: datasource=maven depName=io.papermc.paper:paper-api versioning=gradle
         version("paper", "1.21.11-R0.1-SNAPSHOT")
         // renovate: datasource=maven depName=com.velocitypowered:velocity-api versioning=gradle
@@ -89,6 +92,8 @@ catalog {
         version("floodgate", "2.2.4-SNAPSHOT")
         // renovate: datasource=maven depName=com.comphenix.protocol:ProtocolLib versioning=gradle
         version("protocollib", "5.4.0-SNAPSHOT")
+        // renovate: datasource=maven depName=com.github.retrooper:packetevents-spigot
+        version("packetevents", "2.13.0")
         // renovate: datasource=maven depName=com.github.MilkBowl:VaultAPI
         version("vault", "1.7.1")
         // renovate: datasource=maven depName=net.luckperms:api
@@ -151,6 +156,7 @@ catalog {
         lib("me.clip", "placeholderapi", "placeholderapi")
         lib("org.geysermc.floodgate", "api", "floodgate", "floodgate")
         lib("com.comphenix.protocol", "ProtocolLib", "protocollib", "protocollib")
+        lib("com.github.retrooper", "packetevents-spigot", "packetevents", "packetevents")
         lib("com.github.MilkBowl", "VaultAPI", "vault", "vault")
         lib("net.luckperms", "api", "luckperms", "luckpermsApi")
         lib("com.gitlab.ruany", "LiteBansAPI", "litebans", "litebansApi")
