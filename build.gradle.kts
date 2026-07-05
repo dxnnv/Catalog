@@ -47,7 +47,7 @@ catalog {
 
         // Versions
         // renovate: datasource=maven depName=dev.dxnny:infrastructure
-        version("infrastructure", "5.2.2")
+        version("infrastructure", "5.3.0")
         // renovate: datasource=maven depName=io.papermc.paper:paper-api versioning=gradle
         version("paper", "1.21.11-R0.1-SNAPSHOT")
         // renovate: datasource=maven depName=com.velocitypowered:velocity-api versioning=gradle
