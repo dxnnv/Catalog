@@ -20,7 +20,9 @@
       ],
       "matchStrings": [
         "//\\s*renovate:\\s*datasource=(?<datasource>[^\\s]+)\\s+depName=(?<depName>[^\\s]+)(?:\\s+versioning=(?<versioning>[^\\s]+))?\\s+version\\(\"(?<versionKey>[^\"]+)\",\\s*\"(?<currentValue>[^\"]+)\"\\)"
-      ]
+      ],
+      "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}maven{{/if}}",
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}maven{{/if}}"
     }
   ],
   "packageRules": [

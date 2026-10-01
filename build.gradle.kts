@@ -46,61 +46,61 @@ catalog {
         }
 
         // Versions
-        // renovate: datasource=maven depName=dev.dxnny:infrastructure
+        // renovate: depName=dev.dxnny:infrastructure
         version("infrastructure", "5.3.0")
-        // renovate: datasource=maven depName=io.papermc.paper:paper-api versioning=gradle
+        // renovate: depName=io.papermc.paper:paper-api
         version("paper", "1.21.11-R0.1-SNAPSHOT")
-        // renovate: datasource=maven depName=com.velocitypowered:velocity-api versioning=gradle
+        // renovate: depName=com.velocitypowered:velocity-api
         version("velocity", "3.5.0-SNAPSHOT")
-        // renovate: datasource=maven depName=com.h2database:h2
+        // renovate: depName=com.h2database:h2
         version("h2", "2.4.240")
-        // renovate: datasource=maven depName=org.xerial:sqlite-jdbc
+        // renovate: depName=org.xerial:sqlite-jdbc
         version("sqlite", "3.51.3.0")
-        // renovate: datasource=maven depName=org.mongodb:mongodb-driver-sync
+        // renovate: depName=org.mongodb:mongodb-driver-sync
         version("mongodb", "5.6.4")
-        // renovate: datasource=maven depName=org.mariadb.jdbc:mariadb-java-client
+        // renovate: depName=org.mariadb.jdbc:mariadb-java-client
         version("mariadb", "3.5.7")
-        // renovate: datasource=maven depName=com.mysql:mysql-connector-j
+        // renovate: depName=com.mysql:mysql-connector-j
         version("mysql", "9.6.0")
-        // renovate: datasource=maven depName=com.zaxxer:HikariCP
+        // renovate: depName=com.zaxxer:HikariCP
         version("hikari", "7.0.2")
-        // renovate: datasource=maven depName=com.github.ben-manes.caffeine:caffeine
+        // renovate: depName=com.github.ben-manes.caffeine:caffeine
         version("caffeine", "3.2.3")
-        // renovate: datasource=maven depName=org.jetbrains.exposed:exposed-bom
+        // renovate: depName=org.jetbrains.exposed:exposed-bom
         version("exposed", "1.1.1")
-        // renovate: datasource=maven depName=org.reflections:reflections
+        // renovate: depName=org.reflections:reflections
         version("reflections", "0.10.2")
-        // renovate: datasource=maven depName=org.jetbrains.kotlinx:kotlinx-coroutines-core
+        // renovate: depName=org.jetbrains.kotlinx:kotlinx-coroutines-core
         version("coroutines", "1.10.2")
-        // renovate: datasource=maven depName=com.google.code.gson:gson
+        // renovate: depName=com.google.code.gson:gson
         version("gson", "2.13.2")
-        // renovate: datasource=maven depName=org.slf4j:slf4j-api
+        // renovate: depName=org.slf4j:slf4j-api
         version("slf4j", "2.0.17")
-        // renovate: datasource=maven depName=co.aikar:acf-paper versioning=gradle
+        // renovate: depName=co.aikar:acf-paper
         version("acf", "0.5.1-SNAPSHOT")
-        // renovate: datasource=maven depName=de.rapha149.signgui:signgui
+        // renovate: depName=de.rapha149.signgui:signgui
         version("signgui", "2.5.4")
-        // renovate: datasource=maven depName=org.bstats:bstats-bukkit
+        // renovate: depName=org.bstats:bstats-bukkit
         version("bstats", "3.2.1")
-        // renovate: datasource=maven depName=xyz.xenondevs.invui:invui
+        // renovate: depName=xyz.xenondevs.invui:invui
         version("invui", "1.49")
-        // renovate: datasource=maven depName=org.spongepowered:configurate-core
+        // renovate: depName=org.spongepowered:configurate-core
         version("configurate", "4.2.0")
-        // renovate: datasource=maven depName=me.clip:placeholderapi
+        // renovate: depName=me.clip:placeholderapi
         version("placeholderapi", "2.12.2")
-        // renovate: datasource=maven depName=org.geysermc.floodgate:api versioning=gradle
+        // renovate: depName=org.geysermc.floodgate:api
         version("floodgate", "2.2.4-SNAPSHOT")
-        // renovate: datasource=maven depName=com.comphenix.protocol:ProtocolLib versioning=gradle
+        // renovate: depName=com.comphenix.protocol:ProtocolLib
         version("protocollib", "5.4.0-SNAPSHOT")
-        // renovate: datasource=maven depName=com.github.retrooper:packetevents-spigot
+        // renovate: depName=com.github.retrooper:packetevents-spigot
         version("packetevents", "2.13.0")
-        // renovate: datasource=maven depName=com.github.MilkBowl:VaultAPI
+        // renovate: depName=com.github.MilkBowl:VaultAPI
         version("vault", "1.7.1")
-        // renovate: datasource=maven depName=net.luckperms:api
+        // renovate: depName=net.luckperms:api
         version("luckperms", "5.4")
-        // renovate: datasource=maven depName=com.gitlab.ruany:LiteBansAPI
+        // renovate: depName=com.gitlab.ruany:LiteBansAPI
         version("litebans", "0.6.1")
-        // renovate: datasource=maven depName=net.dv8tion:JDA
+        // renovate: depName=net.dv8tion:JDA
         version("jda", "6.4.1")
 
         // Infrastructure
