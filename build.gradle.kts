@@ -32,6 +32,9 @@ repositories {
     maven("https://repo.codemc.io/repository/maven-releases/") {
         name = "PacketEvents"
     }
+    maven("https://repo.opencollab.dev/main/") {
+        name = "Geyser"
+    }
 }
 
 catalog {
