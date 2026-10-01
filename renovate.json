@@ -19,7 +19,7 @@
         "/(^|/)build\\.gradle\\.kts$/"
       ],
       "matchStrings": [
-        "//\\s*renovate:\\s*datasource=(?<datasource>[^\\s]+)\\s+depName=(?<depName>[^\\s]+)(?:\\s+versioning=(?<versioning>[^\\s]+))?(?:\\s+registryUrl=(?<registryUrl>[^\\s]+))?\\s+version\\(\"(?<versionKey>[^\"]+)\",\\s*\"(?<currentValue>[^\"]+)\"\\)"
+        "//\\s*renovate:\\s*(?:datasource=(?<datasource>[^\\s]+)\\s+)?depName=(?<depName>[^\\s]+)(?:\\s+versioning=(?<versioning>[^\\s]+))?(?:\\s+registryUrl=(?<registryUrl>[^\\s]+))?\\s+version\\(\"(?<versionKey>[^\"]+)\",\\s*\"(?<currentValue>[^\"]+)\"\\)"
       ],
       "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}maven{{/if}}",
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}maven{{/if}}"
