@@ -53,31 +53,31 @@ catalog {
         // renovate: depName=io.papermc.paper:paper-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("paper", "1.21.11-R0.1-SNAPSHOT")
         // renovate: depName=com.velocitypowered:velocity-api registryUrl=https://repo.papermc.io/repository/maven-public/
-        version("velocity", "3.5.0-SNAPSHOT")
+        version("velocity", "4.2.1-SNAPSHOT")
         // renovate: depName=com.h2database:h2
-        version("h2", "2.4.240")
+        version("h2", "2.5.252")
         // renovate: depName=org.xerial:sqlite-jdbc
-        version("sqlite", "3.51.3.0")
+        version("sqlite", "3.53.4.0")
         // renovate: depName=org.mongodb:mongodb-driver-sync
-        version("mongodb", "5.6.4")
+        version("mongodb", "5.13.0")
         // renovate: depName=org.mariadb.jdbc:mariadb-java-client
-        version("mariadb", "3.5.7")
+        version("mariadb", "3.5.10")
         // renovate: depName=com.mysql:mysql-connector-j
         version("mysql", "9.6.0")
         // renovate: depName=com.zaxxer:HikariCP
-        version("hikari", "7.0.2")
+        version("hikari", "7.1.0")
         // renovate: depName=com.github.ben-manes.caffeine:caffeine
-        version("caffeine", "3.2.3")
+        version("caffeine", "3.3.0")
         // renovate: depName=org.jetbrains.exposed:exposed-bom
-        version("exposed", "1.1.1")
+        version("exposed", "1.5.0")
         // renovate: depName=org.reflections:reflections
         version("reflections", "0.10.2")
         // renovate: depName=org.jetbrains.kotlinx:kotlinx-coroutines-core
-        version("coroutines", "1.10.2")
+        version("coroutines", "1.11.0")
         // renovate: depName=com.google.code.gson:gson
-        version("gson", "2.13.2")
+        version("gson", "2.14.0")
         // renovate: depName=org.slf4j:slf4j-api
-        version("slf4j", "2.0.17")
+        version("slf4j", "2.0.20")
         // renovate: depName=co.aikar:acf-paper registryUrl=https://repo.aikar.co/content/groups/aikar/
         version("acf", "0.5.1-SNAPSHOT")
         // renovate: depName=de.rapha149.signgui:signgui
@@ -89,21 +89,21 @@ catalog {
         // renovate: depName=org.spongepowered:configurate-core
         version("configurate", "4.2.0")
         // renovate: depName=me.clip:placeholderapi registryUrl=https://repo.extendedclip.com/releases/
-        version("placeholderapi", "2.12.2")
+        version("placeholderapi", "2.12.3")
         // renovate: depName=org.geysermc.floodgate:api registryUrl=https://repo.opencollab.dev/main/
         version("floodgate", "2.2.4-SNAPSHOT")
         // renovate: depName=com.comphenix.protocol:ProtocolLib registryUrl=https://repo.dmulloy2.net/repository/public/
         version("protocollib", "5.4.0-SNAPSHOT")
         // renovate: depName=com.github.retrooper:packetevents-spigot registryUrl=https://repo.codemc.io/repository/maven-releases/
-        version("packetevents", "2.13.0")
+        version("packetevents", "2.14.0")
         // renovate: depName=com.github.MilkBowl:VaultAPI registryUrl=https://jitpack.io
         version("vault", "1.7.1")
         // renovate: depName=net.luckperms:api
-        version("luckperms", "5.4")
+        version("luckperms", "5.5")
         // renovate: depName=com.gitlab.ruany:LiteBansAPI registryUrl=https://jitpack.io
         version("litebans", "0.6.1")
         // renovate: depName=net.dv8tion:JDA
-        version("jda", "6.4.1")
+        version("jda", "6.6.0")
 
         // Infrastructure
         lib("dev.dxnny", "infrastructure", "infrastructure")
