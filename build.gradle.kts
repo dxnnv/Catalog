@@ -63,7 +63,7 @@ catalog {
         // renovate: depName=org.mariadb.jdbc:mariadb-java-client
         version("mariadb", "3.5.10")
         // renovate: depName=com.mysql:mysql-connector-j
-        version("mysql", "9.6.0")
+        version("mysql", "26.7.0")
         // renovate: depName=com.zaxxer:HikariCP
         version("hikari", "7.1.0")
         // renovate: depName=com.github.ben-manes.caffeine:caffeine
