@@ -96,7 +96,7 @@ catalog {
         version("protocollib", "5.4.0-SNAPSHOT")
         // renovate: depName=com.github.retrooper:packetevents-spigot registryUrl=https://repo.codemc.io/repository/maven-releases/
         version("packetevents", "2.13.0")
-        // renovate: depName=com.github.MilkBowl:VaultAPI
+        // renovate: depName=com.github.MilkBowl:VaultAPI registryUrl=https://jitpack.io
         version("vault", "1.7.1")
         // renovate: depName=net.luckperms:api
         version("luckperms", "5.4")
