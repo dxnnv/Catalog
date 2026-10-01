@@ -42,6 +42,16 @@
       ],
       "groupName": "GitHub Actions",
       "groupSlug": "github-actions"
+    },
+    {
+      "description": "Ignore false-positive SLF4J dependency from Gradle parser",
+      "matchManagers": [
+        "gradle"
+      ],
+      "matchPackageNames": [
+        "org.slf4j:slf4j-api"
+      ],
+      "enabled": false
     }
   ]
 }
