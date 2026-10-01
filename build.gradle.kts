@@ -39,10 +39,10 @@ catalog {
         fun VersionCatalogBuilder.lib(
             group: String,
             artifact: String,
-            versionRef: String? = artifact,
+            verRef: String? = artifact,
             alias: String = artifact,
         ) = library(alias, group, artifact).apply {
-            if (versionRef != null) versionRef(versionRef) else withoutVersion()
+            verRef?.let(::versionRef) ?: withoutVersion()
         }
 
         // Versions
