@@ -49,7 +49,6 @@ catalog {
         }
 
         // Versions
-        // renovate: depName=dev.dxnny:infrastructure
         version("infrastructure", "5.3.0")
         // renovate: depName=io.papermc.paper:paper-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("paper", "1.21.11-R0.1-SNAPSHOT")
