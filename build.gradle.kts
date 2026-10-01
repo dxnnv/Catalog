@@ -51,9 +51,9 @@ catalog {
         // Versions
         // renovate: depName=dev.dxnny:infrastructure
         version("infrastructure", "5.3.0")
-        // renovate: depName=io.papermc.paper:paper-api
+        // renovate: depName=io.papermc.paper:paper-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("paper", "1.21.11-R0.1-SNAPSHOT")
-        // renovate: depName=com.velocitypowered:velocity-api
+        // renovate: depName=com.velocitypowered:velocity-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("velocity", "3.5.0-SNAPSHOT")
         // renovate: depName=com.h2database:h2
         version("h2", "2.4.240")
@@ -79,29 +79,29 @@ catalog {
         version("gson", "2.13.2")
         // renovate: depName=org.slf4j:slf4j-api
         version("slf4j", "2.0.17")
-        // renovate: depName=co.aikar:acf-paper
+        // renovate: depName=co.aikar:acf-paper registryUrl=https://repo.aikar.co/content/groups/aikar/
         version("acf", "0.5.1-SNAPSHOT")
         // renovate: depName=de.rapha149.signgui:signgui
         version("signgui", "2.5.4")
         // renovate: depName=org.bstats:bstats-bukkit
         version("bstats", "3.2.1")
-        // renovate: depName=xyz.xenondevs.invui:invui
+        // renovate: depName=xyz.xenondevs.invui:invui registryUrl=https://repo.xenondevs.xyz/releases
         version("invui", "1.49")
         // renovate: depName=org.spongepowered:configurate-core
         version("configurate", "4.2.0")
-        // renovate: depName=me.clip:placeholderapi
+        // renovate: depName=me.clip:placeholderapi registryUrl=https://repo.extendedclip.com/releases/
         version("placeholderapi", "2.12.2")
-        // renovate: depName=org.geysermc.floodgate:api
+        // renovate: depName=org.geysermc.floodgate:api registryUrl=https://repo.opencollab.dev/main/
         version("floodgate", "2.2.4-SNAPSHOT")
-        // renovate: depName=com.comphenix.protocol:ProtocolLib
+        // renovate: depName=com.comphenix.protocol:ProtocolLib registryUrl=https://repo.dmulloy2.net/repository/public/
         version("protocollib", "5.4.0-SNAPSHOT")
-        // renovate: depName=com.github.retrooper:packetevents-spigot
+        // renovate: depName=com.github.retrooper:packetevents-spigot registryUrl=https://repo.codemc.io/repository/maven-releases/
         version("packetevents", "2.13.0")
         // renovate: depName=com.github.MilkBowl:VaultAPI
         version("vault", "1.7.1")
         // renovate: depName=net.luckperms:api
         version("luckperms", "5.4")
-        // renovate: depName=com.gitlab.ruany:LiteBansAPI
+        // renovate: depName=com.gitlab.ruany:LiteBansAPI registryUrl=https://jitpack.io
         version("litebans", "0.6.1")
         // renovate: depName=net.dv8tion:JDA
         version("jda", "6.4.1")
