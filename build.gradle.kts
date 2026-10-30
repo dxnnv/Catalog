@@ -53,29 +53,29 @@ catalog {
         // renovate: depName=io.papermc.paper:paper-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("paper", "1.21.11-R0.1-SNAPSHOT")
         // renovate: depName=com.velocitypowered:velocity-api registryUrl=https://repo.papermc.io/repository/maven-public/
-        version("velocity", "4.2.1-SNAPSHOT")
+        version("velocity", "4.3.1")
         // renovate: depName=com.h2database:h2
         version("h2", "2.5.252")
         // renovate: depName=org.xerial:sqlite-jdbc
-        version("sqlite", "3.53.4.0")
+        version("sqlite", "3.54.1.0")
         // renovate: depName=org.mongodb:mongodb-driver-sync
-        version("mongodb", "5.13.0")
+        version("mongodb", "5.14.0")
         // renovate: depName=org.mariadb.jdbc:mariadb-java-client
-        version("mariadb", "3.5.10")
+        version("mariadb", "3.5.11")
         // renovate: depName=com.mysql:mysql-connector-j
-        version("mysql", "26.7.0")
+        version("mysql", "26.10.0")
         // renovate: depName=com.zaxxer:HikariCP
         version("hikari", "7.1.0")
         // renovate: depName=com.github.ben-manes.caffeine:caffeine
-        version("caffeine", "3.3.0")
+        version("caffeine", "3.3.1")
         // renovate: depName=org.jetbrains.exposed:exposed-bom
-        version("exposed", "1.5.0")
+        version("exposed", "1.6.0")
         // renovate: depName=org.reflections:reflections
         version("reflections", "0.10.2")
         // renovate: depName=org.jetbrains.kotlinx:kotlinx-coroutines-core
         version("coroutines", "1.11.0")
         // renovate: depName=com.google.code.gson:gson
-        version("gson", "2.14.0")
+        version("gson", "2.15.0")
         // renovate: depName=org.slf4j:slf4j-api
         version("slf4j", "2.0.20")
         // renovate: depName=co.aikar:acf-paper registryUrl=https://repo.aikar.co/content/groups/aikar/
@@ -103,7 +103,7 @@ catalog {
         // renovate: depName=com.gitlab.ruany:LiteBansAPI registryUrl=https://jitpack.io
         version("litebans", "0.6.1")
         // renovate: depName=net.dv8tion:JDA
-        version("jda", "6.6.0")
+        version("jda", "6.7.0")
 
         // Infrastructure
         lib("dev.dxnny", "infrastructure", "infrastructure")
