@@ -51,7 +51,7 @@ catalog {
         // Versions
         version("infrastructure", "5.3.0")
         // renovate: depName=io.papermc.paper:paper-api registryUrl=https://repo.papermc.io/repository/maven-public/
-        version("paper", "1.21.11-R0.1-SNAPSHOT")
+        version("paper", "26.3.build.245-stable")
         // renovate: depName=com.velocitypowered:velocity-api registryUrl=https://repo.papermc.io/repository/maven-public/
         version("velocity", "4.2.1-SNAPSHOT")
         // renovate: depName=com.h2database:h2
@@ -61,7 +61,7 @@ catalog {
         // renovate: depName=org.mongodb:mongodb-driver-sync
         version("mongodb", "5.13.0")
         // renovate: depName=org.mariadb.jdbc:mariadb-java-client
-        version("mariadb", "3.5.10")
+        version("mariadb", "4.0.0")
         // renovate: depName=com.mysql:mysql-connector-j
         version("mysql", "26.7.0")
         // renovate: depName=com.zaxxer:HikariCP
@@ -85,7 +85,7 @@ catalog {
         // renovate: depName=org.bstats:bstats-bukkit
         version("bstats", "3.2.1")
         // renovate: depName=xyz.xenondevs.invui:invui registryUrl=https://repo.xenondevs.xyz/releases
-        version("invui", "1.49")
+        version("invui", "2.5.1")
         // renovate: depName=org.spongepowered:configurate-core
         version("configurate", "4.2.0")
         // renovate: depName=me.clip:placeholderapi registryUrl=https://repo.extendedclip.com/releases/
